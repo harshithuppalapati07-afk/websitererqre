@@ -6,18 +6,18 @@ export const getAsset = (path: string) => {
 
 const siteConfig = {
   personal: {
-    name: 'Put your name inside the quote',
-    title: 'Your Title | Your Role',
+    name: 'Uppalapati Harshith',
+    title: 'Economics with Data Science Undergraduate',
     image: getAsset('images/profile.png'), // Customize or replace with your profile image
     description:
-      'Write a short bio here describing your background and focus. Keep it to 2–4 sentences.\n' +
+      'I am an Economics with Data Science undergraduate with a strong interest in applied economic analysis, particularly in areas like unemployment, market dynamics, and business strategy. Alongside my academic work, I engage in research-driven projects and practical initiatives that connect data, policy, and real-world decision-making.' +
       '\n' +
       'Mention your institution or company, areas of interest, and what you teach or build.\n' +
       '\n' +
       'Summarize your education or certifications briefly and highlight your practical work.\n' +
       '\n' +
       'Optional: Add notable books, workshops, or training you deliver.',
-    tagline: 'Add a concise personal tagline here.',
+    tagline: 'Exploring economics through data and finance',
     location: 'Your City, Country',
   },
 
